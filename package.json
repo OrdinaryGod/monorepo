@@ -1,0 +1,16 @@
+{
+  "name": "monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "monorepo demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zhangji",
+  "license": "ISC",
+  "workspaces": [
+    "packages/*" 
+  ]
+}
